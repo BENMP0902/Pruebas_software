@@ -61,8 +61,11 @@ pip install -r requirements.txt
 
 ## Ejecutar las pruebas
 
+Las pruebas estan escritas como funciones simples con `assert` y se
+ejecutan directamente como script (no usan `unittest.TestCase`):
+
 ```powershell
-python -m unittest test_analyzer.py
+python test_analyzer.py
 ```
 
 ## Autor
